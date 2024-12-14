@@ -1,9 +1,17 @@
 import "./App.css";
-import { APIProvider, Map } from "@vis.gl/react-google-maps";
+import Header from "../Header/Header";
+import Main from "../Main/Main";
+import Footer from "../Footer/Footer";
+//import { APIProvider, Map } from "@vis.gl/react-google-maps";
 
 function App() {
   return (
-    <div>
+    <div className="app">
+      <div className="app__content">
+        <Header></Header>
+        <Main></Main>
+        <Footer></Footer>
+      </div>
       {/* <APIProvider apiKey={AIzaSyBKsxB7SuZvOCJUCfWSsW9jkBRKtYBa0MY}>
         <Map
           style={{ width: "100vw", height: "100vh" }}

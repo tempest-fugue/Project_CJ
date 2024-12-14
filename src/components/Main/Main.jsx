@@ -1,12 +1,15 @@
 import "./Main.css";
 import GoogleMap from "../GoogleMap/GoogleMap";
+import ellipse from "../../assets/Ellipse.svg";
 
 function Main() {
   return (
     <main>
       Main
-      <section className="map">
+      <section className="section__map">
+        <img className="section__map__image_top" src={ellipse}></img>
         <GoogleMap />
+        <img className="section__map__image_bottom" src={ellipse}></img>
       </section>
     </main>
   );

@@ -1,0 +1,21 @@
+.section__map {
+  padding: 40px;
+  background: center no-repeat
+    url("../../assets/map-section-background-image.png");
+  background-size: cover;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.section__map__image_top {
+  position: absolute;
+  left: 0px;
+  top: -150px;
+}
+
+.section__map__image_bottom {
+  position: absolute;
+  right: 0px;
+  bottom: -150px;
+  transform: scaleX(-1);
+}

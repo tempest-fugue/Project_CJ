@@ -1,11 +1,11 @@
 .app {
-  background-color: white;
+  background: linear-gradient(180deg, #4290d5 0%, #ffffff 100%);
 }
 
 .app__content {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
   line-height: 1.2;
   min-height: 100vh;
 }

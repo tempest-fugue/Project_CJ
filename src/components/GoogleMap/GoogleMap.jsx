@@ -10,13 +10,12 @@ import {
 function GoogleMap() {
   return (
     <APIProvider apiKey={"AIzaSyBKsxB7SuZvOCJUCfWSsW9jkBRKtYBa0MY"}>
-      <div className="map">
-        <h2 className="map__title">The Roadtrip Route</h2>
-        <div style={{ width: "100%", height: "800px" }}>
+      <div className="google-map__wrapper">
+        <div className="google-map__map">
           <Map
             mapId={"89d3de76b192536f"}
-            defaultCenter={{ lat: 37.5, lng: -77 }}
-            defaultZoom={6}
+            defaultCenter={{ lat: 39.5, lng: -77 }}
+            defaultZoom={4}
             gestureHandling={"greedy"}
             disableDefaultUI={false}
             fullscreenControl={false}

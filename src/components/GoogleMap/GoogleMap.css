@@ -1,7 +1,5 @@
-.map {
-  width: 1440px;
-}
-
-.map__title {
-  color: rgba(66, 144, 213, 1);
+.google-map__map {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
 }

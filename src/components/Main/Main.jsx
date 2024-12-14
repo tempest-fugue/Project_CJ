@@ -1,11 +1,14 @@
 import "./Main.css";
+import About from "../About/About";
 import GoogleMap from "../GoogleMap/GoogleMap";
 import ellipse from "../../assets/Ellipse.svg";
 
 function Main() {
   return (
     <main>
-      <section>About</section>
+      <section>
+        <About />
+      </section>
       <section className="section__map">
         <img className="section__map__image_top" src={ellipse}></img>
         <GoogleMap />

@@ -1,0 +1,25 @@
+.event-card {
+  list-style: none;
+  flex-basis: 40%;
+  margin: 0;
+  background-color: white;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-card__image {
+  height: 300px;
+  object-fit: cover;
+}
+
+.event-card__title {
+  margin: 8px 24px 0;
+  text-align: center;
+}
+
+.event-card__text {
+  margin: 16px 24px 8px;
+}

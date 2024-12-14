@@ -2,6 +2,7 @@ import "./Main.css";
 import About from "../About/About";
 import GoogleMap from "../GoogleMap/GoogleMap";
 import ellipse from "../../assets/Ellipse.svg";
+import Events from "../Events/Events";
 
 function Main() {
   return (
@@ -22,7 +23,7 @@ function Main() {
           alt="ellipse circle"
         ></img>
       </section>
-      <section>Cards/Events</section>
+      <Events></Events>
     </main>
   );
 }

@@ -1,21 +1,23 @@
 .section__map {
-  padding: 40px;
   background: center no-repeat
     url("../../assets/map-section-background-image.png");
   background-size: cover;
   position: relative;
-  /* overflow: hidden; */
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section__map__image_top {
   position: absolute;
-  left: 0px;
+  left: -40px;
   top: -150px;
 }
 
 .section__map__image_bottom {
   position: absolute;
-  right: 0px;
+  right: -40px;
   bottom: -150px;
   transform: scaleX(-1);
 }

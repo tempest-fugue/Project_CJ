@@ -39,14 +39,14 @@ function Footer() {
 
         <div className="footer__card">
           <p className="footer__name">
-            <span className="footer__name-block">Sam </span> Lastname
+            <span className="footer__name-block">Sam </span> Branham
           </p>
           <p className="footer__career-title">
             <span className="footer__career-title-block">Software</span>
             Engineer
           </p>
 
-          <a href="" className="footer__social-link">
+          <a href="https://github.com/00H00W" className="footer__social-link">
             <img
               src="src/assets/github.svg"
               alt="Github Logo"
@@ -54,7 +54,7 @@ function Footer() {
             />
             Github
           </a>
-          <a href="" className="footer__social-link">
+          <a href="https://github.com/00H00W" className="footer__social-link">
             <img
               src="src/assets/linkedin.svg"
               alt="Linkedin Logo"

@@ -14,8 +14,8 @@ function GoogleMap() {
         <div className="google-map__map">
           <Map
             mapId={"89d3de76b192536f"}
-            defaultCenter={{ lat: 39.5, lng: -77 }}
-            defaultZoom={4}
+            defaultCenter={{ lat: 38.5, lng: -77 }}
+            defaultZoom={6}
             gestureHandling={"greedy"}
             disableDefaultUI={false}
             fullscreenControl={false}

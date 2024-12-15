@@ -1,5 +1,5 @@
 .google-map__map {
-  width: 600px;
-  height: 200px;
+  max-width: 1200px;
+  height: 600px;
   margin: 0 auto;
 }

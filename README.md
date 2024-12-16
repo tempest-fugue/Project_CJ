@@ -100,11 +100,17 @@ xplore and Enjoy: Enjoy the holiday magic, knowing your route is optimized for t
 ## 🧑💻 Built With:
 
 Python – for all the backend logic, including route optimization algorithms (Brute Force).
+
 Streamlit – for building the web-based interface to display the trip details and optimized route.
+
 Matplotlib/Seaborn – for displaying visual data insights, including route mapping.
+
 React - a library for building the UI.
+
 Vite - a build tool for providing the infrastructure to build and bundle our web application.
+
 Maps JS API - Google Maps JavaScript API for incorporation of our map with advanced markers and info window popups.
+
 Node.js - used to help with building, package management, server deployment and running scripts.
 
 ## How to Run Locally

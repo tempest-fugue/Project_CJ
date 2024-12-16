@@ -11,17 +11,12 @@ function Header() {
             </a>
           </li>
           <li className="nav__link">
-            <a href="#route" className="nav__button">
-              Route
+            <a href="#roadmap" className="nav__button">
+              Roadmap
             </a>
           </li>
           <li className="nav__link">
-            <a href="#map" className="nav__button">
-              Map
-            </a>
-          </li>
-          <li className="nav__link">
-            <a href="#event" className="nav__button">
+            <a href="#events" className="nav__button">
               Events
             </a>
           </li>

@@ -2,6 +2,12 @@
   height: 860px;
   position: relative;
   overflow: hidden;
+  display: grid;
+  align-items: center;
+  font-family: "DMSans";
+  padding-bottom: 100px;
+  background: linear-gradient(180deg, #4290d5 0%, #ffffff 100%);
+  line-height: 1.2;
 }
 
 .about__ellipse-image {
@@ -15,21 +21,53 @@
 
 .about__title {
   padding-left: 50px;
+  font-size: 96px;
+  color: white;
+  text-shadow: 5px 10px 2px black;
+  margin-bottom: 0;
 }
 
 .about__wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
   padding-left: 50px;
 }
 
 .about__description {
   width: 300px;
+  align-content: center;
+  margin: 0;
 }
 
 .about__image {
-  width: 857px;
-  height: 526px;
-  padding: 255px 28px 70px auto;
+  max-width: 857px;
+  max-height: 526px;
+  align-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .about {
+    justify-content: center;
+  }
+
+  .about__title {
+    padding-left: 50px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 10px 2px black;
+    max-width: 100px;
+    margin: 0;
+  }
+  .about__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 50px;
+    align-items: center;
+  }
+  .about__image {
+    max-width: 300px;
+    max-height: 300px;
+    align-content: center;
+  }
 }

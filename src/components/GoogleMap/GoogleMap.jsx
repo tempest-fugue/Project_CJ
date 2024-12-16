@@ -6,6 +6,7 @@ import {
   Pin,
   InfoWindow,
 } from "@vis.gl/react-google-maps";
+import { getPath } from "../../utils/pathGenerator";
 
 function GoogleMap() {
   return (
@@ -20,6 +21,15 @@ function GoogleMap() {
             disableDefaultUI={false}
             fullscreenControl={false}
           >
+            {getPath().map((item, i) => {
+              return (
+                <AdvancedMarker
+                  key={i}
+                  position={{ lat: item.lat, lng: item.long }}
+                ></AdvancedMarker>
+              );
+            })}
+            {/*             Default marker test
             <AdvancedMarker
               position={{ lat: 33.75, lng: -84.39 }}
             ></AdvancedMarker>
@@ -31,7 +41,7 @@ function GoogleMap() {
             ></AdvancedMarker>
             <AdvancedMarker
               position={{ lat: 42.36, lng: -71.06 }}
-            ></AdvancedMarker>
+            ></AdvancedMarker> */}
           </Map>
         </div>
       </div>

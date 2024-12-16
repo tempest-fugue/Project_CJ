@@ -4,7 +4,7 @@ import { eventCardDatas } from "../../utils/constants";
 
 function Events() {
   return (
-    <section className="events">
+    <section id="events" className="events">
       <h2 className="events__title">Events</h2>
       <ul className="events__list">
         {eventCardDatas.map((item, i) => {

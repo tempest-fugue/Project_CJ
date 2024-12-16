@@ -10,7 +10,7 @@ function Main() {
       <section>
         <About />
       </section>
-      <section className="section__map">
+      <section id="roadmap" className="section__map">
         <img
           className="section__map__image_top"
           src={ellipse}

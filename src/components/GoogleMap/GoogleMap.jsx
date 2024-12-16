@@ -43,9 +43,11 @@ function GoogleMap() {
                     onCloseClick={() => setOpenMarkerIndex(null)}
                   >
                     <div>
-                      <h3>Marker Info</h3>
-                      <p>Lat: {item.lat}</p>
-                      <p>Lng: {item.long}</p>
+                      <h3>
+                        {item.stop}
+                        {item.city}
+                      </h3>
+                      <p>{item.name}</p>
                     </div>
                   </InfoWindow>
                 )}

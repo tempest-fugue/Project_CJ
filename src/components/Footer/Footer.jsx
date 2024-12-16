@@ -1,4 +1,6 @@
 import "./Footer.css";
+import gitHubIcon from "../../assets/github.svg";
+import linkedInIcon from "../../assets/linkedin.svg";
 
 function Footer() {
   return (
@@ -18,7 +20,7 @@ function Footer() {
             className="footer__social-link"
           >
             <img
-              src="src/assets/github.svg"
+              src={gitHubIcon}
               alt="Github Logo"
               className="footer__github-icon"
             />
@@ -29,7 +31,7 @@ function Footer() {
             className="footer__social-link"
           >
             <img
-              src="src/assets/linkedin.svg"
+              src={linkedInIcon}
               alt="Linkedin Logo"
               className="footer__linkedin-icon"
             />

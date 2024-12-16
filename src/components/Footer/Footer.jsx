@@ -126,7 +126,7 @@ function Footer() {
 
         <div className="footer__card">
           <p className="footer__name">
-            <span className="footer__name-block">Eric </span> M
+            <span className="footer__name-block">Eric </span> MacDougall
           </p>
           <p className="footer__career-title">
             <span className="footer__career-title-block">Data</span>

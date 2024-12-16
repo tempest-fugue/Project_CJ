@@ -14,14 +14,13 @@ function About() {
       <div className="about__wrapper">
         <p className="about__description">
           🏔️ Winter East Coast Road Trip: A Festive Journey Through Iconic East
-          Coast Events <p></p>
+          Coast Events
           <span className="about__span">
             🧭 Embark on a magical winter journey across the Eastern United
             States, visiting four spectacular cities, each offering a unique and
             unforgettable event. From family-friendly activities to festive
             experiences, this trip captures the essence of the holiday season.
           </span>{" "}
-          <p></p>
           <span className="about__span">
             🛣️ Route Optimization: The Best Route: Atlanta → Charlotte → New
             York City → Boston. In this project, we used advanced algorithms to

@@ -97,6 +97,8 @@ xplore and Enjoy: Enjoy the holiday magic, knowing your route is optimized for t
 
 ## Link to web application :
 
+https://fancy-faloodeh-695333.netlify.app/
+
 ## 🧑💻 Built With:
 
 Python – for all the backend logic, including route optimization algorithms (Brute Force).

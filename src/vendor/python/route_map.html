@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_883dc11e9b91694ab4f50898df35c97b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_883dc11e9b91694ab4f50898df35c97b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_883dc11e9b91694ab4f50898df35c97b = L.map(
+                "map_883dc11e9b91694ab4f50898df35c97b",
+                {
+                    center: [40.6943, -73.9249],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bafcec7bb7bd0e21fb0fb6d36779d616 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bafcec7bb7bd0e21fb0fb6d36779d616.addTo(map_883dc11e9b91694ab4f50898df35c97b);
+        
+    
+            var marker_2df677e63f084f0eb653a2b13fb52c69 = L.marker(
+                [40.6943, -73.9249],
+                {
+}
+            ).addTo(map_883dc11e9b91694ab4f50898df35c97b);
+        
+    
+        var popup_a7efc921d48eb8585df3f211be5b51c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bc678f9584be7c882ec11efa076c616 = $(`<div id="html_7bc678f9584be7c882ec11efa076c616" style="width: 100.0%; height: 100.0%;"><b>Drop 1:</b><br><b>City:</b> New York, New York<br><b>Distance:</b> 0.00 km<br><b>Event:</b> Top of the Rock & Rockefeller Center VIP Pass: Holiday Edition<br><b>Address:</b> 45 Rockefeller Plaza, New York, NY 10111</div>`)[0];
+                popup_a7efc921d48eb8585df3f211be5b51c5.setContent(html_7bc678f9584be7c882ec11efa076c616);
+            
+        
+
+        marker_2df677e63f084f0eb653a2b13fb52c69.bindPopup(popup_a7efc921d48eb8585df3f211be5b51c5)
+        ;
+
+        
+    
+    
+            marker_2df677e63f084f0eb653a2b13fb52c69.bindTooltip(
+                `<div>
+                     1. New York
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8e8cdd5ddd237d0c1da9a153433a16ad = L.marker(
+                [42.3188, -71.0852],
+                {
+}
+            ).addTo(map_883dc11e9b91694ab4f50898df35c97b);
+        
+    
+        var popup_5c03e78ac167f073222270c34a3af819 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d37c396d87b114e8fc7a56cd83ceff4d = $(`<div id="html_d37c396d87b114e8fc7a56cd83ceff4d" style="width: 100.0%; height: 100.0%;"><b>Drop 2:</b><br><b>City:</b> Boston, Massachusetts<br><b>Distance:</b> 297.54 km<br><b>Event:</b> Disney On Ice: Mickey's Search Party<br><b>Address:</b> 925 Commonwealth Ave, Boston, MA 02215</div>`)[0];
+                popup_5c03e78ac167f073222270c34a3af819.setContent(html_d37c396d87b114e8fc7a56cd83ceff4d);
+            
+        
+
+        marker_8e8cdd5ddd237d0c1da9a153433a16ad.bindPopup(popup_5c03e78ac167f073222270c34a3af819)
+        ;
+
+        
+    
+    
+            marker_8e8cdd5ddd237d0c1da9a153433a16ad.bindTooltip(
+                `<div>
+                     2. Boston
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7f8a7f234740cb603c2861ae46109b52 = L.marker(
+                [35.2083, -80.8303],
+                {
+}
+            ).addTo(map_883dc11e9b91694ab4f50898df35c97b);
+        
+    
+        var popup_4e7a763c573f9f1864964892db60f3bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83ccb8db9178ab0ca82b886b722070af = $(`<div id="html_83ccb8db9178ab0ca82b886b722070af" style="width: 100.0%; height: 100.0%;"><b>Drop 3:</b><br><b>City:</b> Charlotte, North Carolina<br><b>Distance:</b> 858.93 km<br><b>Event:</b> 2024 North Carolina Christmas Festival<br><b>Address:</b> 4751 North Carolina 49 Gold Hall Concord, NC 28025</div>`)[0];
+                popup_4e7a763c573f9f1864964892db60f3bf.setContent(html_83ccb8db9178ab0ca82b886b722070af);
+            
+        
+
+        marker_7f8a7f234740cb603c2861ae46109b52.bindPopup(popup_4e7a763c573f9f1864964892db60f3bf)
+        ;
+
+        
+    
+    
+            marker_7f8a7f234740cb603c2861ae46109b52.bindTooltip(
+                `<div>
+                     3. Charlotte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ff3560571e0361f4ca1536c01cad88d = L.marker(
+                [33.7628, -84.422],
+                {
+}
+            ).addTo(map_883dc11e9b91694ab4f50898df35c97b);
+        
+    
+        var popup_ef4e6c8c76eb5cde528fb98accce0b49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0ef3093648b8fa49c55a81aba1280eb = $(`<div id="html_b0ef3093648b8fa49c55a81aba1280eb" style="width: 100.0%; height: 100.0%;"><b>Drop 4:</b><br><b>City:</b> Atlanta, Georgia<br><b>Distance:</b> 1205.83 km<br><b>Event:</b> America's larg Aquarium<br><b>Address:</b> 225 Baker St NW, Atlanta, GA 30313</div>`)[0];
+                popup_ef4e6c8c76eb5cde528fb98accce0b49.setContent(html_b0ef3093648b8fa49c55a81aba1280eb);
+            
+        
+
+        marker_8ff3560571e0361f4ca1536c01cad88d.bindPopup(popup_ef4e6c8c76eb5cde528fb98accce0b49)
+        ;
+
+        
+    
+    
+            marker_8ff3560571e0361f4ca1536c01cad88d.bindTooltip(
+                `<div>
+                     4. Atlanta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_bce40c3816205199f19ab8850757ed24 = L.polyline(
+                [[40.6943, -73.9249], [42.3188, -71.0852], [35.2083, -80.8303], [33.7628, -84.422]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_883dc11e9b91694ab4f50898df35c97b);
+        
+</script>
+</html>

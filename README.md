@@ -87,7 +87,9 @@ that allows you to experience the magic of the holidays while saving on costs, r
 
 ## 🛠️ How to Use the App:
 
-Plan Your Trip: Use the app to see all four holiday events and plan your visit to each.
+Plan Your Trip: Use the app to see all four holiday events and plan your visit to each. Click the pins on the map to show you more info about your stop.
+
+Buy Tickets: Click the event cards. They will take you to the link to purchase tickets for your event.
 
 Route Optimization: Let the app calculate the most efficient route for your journey using the optimized solution.
 

@@ -16,6 +16,7 @@ function Footer() {
           <a
             href="https://github.com/sensey0702"
             className="footer__social-link"
+            target="_blank"
           >
             <img
               src={gitHubIcon}
@@ -27,6 +28,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/samantha-ensey-1a7a95a4/"
             className="footer__social-link"
+            target="_blank"
           >
             <img
               src={linkedInIcon}
@@ -44,7 +46,11 @@ function Footer() {
             Engineer
           </p>
 
-          <a href="https://github.com/00H00W" className="footer__social-link">
+          <a
+            href="https://github.com/00H00W"
+            className="footer__social-link"
+            target="_blank"
+          >
             <img
               src={gitHubIcon}
               alt="Github Logo"
@@ -52,7 +58,11 @@ function Footer() {
             />
             Github
           </a>
-          <a href="https://github.com/00H00W" className="footer__social-link">
+          <a
+            href="https://github.com/00H00W"
+            className="footer__social-link"
+            target="_blank"
+          >
             <img
               src={linkedInIcon}
               alt="Linkedin Logo"
@@ -69,7 +79,11 @@ function Footer() {
             Engineer
           </p>
 
-          <a href="https://github.com/Daveyrax" className="footer__social-link">
+          <a
+            href="https://github.com/Daveyrax"
+            className="footer__social-link"
+            target="_blank"
+          >
             <img
               src={gitHubIcon}
               alt="Github Logo"
@@ -80,6 +94,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/dmbedoya/"
             className="footer__social-link"
+            target="_blank"
           >
             <img
               src={linkedInIcon}
@@ -97,7 +112,11 @@ function Footer() {
             Scientist
           </p>
 
-          <a href="https://github.com/Alba-Sk" className="footer__social-link">
+          <a
+            href="https://github.com/Alba-Sk"
+            className="footer__social-link"
+            target="_blank"
+          >
             <img
               src={gitHubIcon}
               alt="Github Logo"
@@ -108,6 +127,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/albana-skeja-24as/"
             className="footer__social-link"
+            target="_blank"
           >
             <img
               src={linkedInIcon}
@@ -119,15 +139,13 @@ function Footer() {
         </div>
 
         <div className="footer__card">
-          <p className="footer__name">
-            <span className="footer__name-block">Eric </span> MacDougall
-          </p>
+          <p className="footer__name">Eric MacDougall</p>
           <p className="footer__career-title">
             <span className="footer__career-title-block">Data</span>
             Scientist
           </p>
 
-          <a href="" className="footer__social-link">
+          <a href="" className="footer__social-link" target="_blank">
             <img
               src={gitHubIcon}
               alt="Github Logo"
@@ -135,7 +153,7 @@ function Footer() {
             />
             Github
           </a>
-          <a href="" className="footer__social-link">
+          <a href="" className="footer__social-link" target="_blank">
             <img
               src={linkedInIcon}
               alt="Linkedin Logo"

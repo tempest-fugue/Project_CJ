@@ -5,9 +5,7 @@ function Footer() {
     <div id="contact" className="footer">
       <div className="footer__container">
         <div className="footer__card">
-          <p className="footer__name">
-            <span className="footer__name-block">Samantha </span> Ensey
-          </p>
+          <p className="footer__name">Samantha Ensey</p>
           <p className="footer__career-title">
             <span className="footer__career-title-block">Software</span>
             Engineer
@@ -38,9 +36,7 @@ function Footer() {
         </div>
 
         <div className="footer__card">
-          <p className="footer__name">
-            <span className="footer__name-block">Sam </span> Branham
-          </p>
+          <p className="footer__name">Sam Branham</p>
           <p className="footer__career-title">
             <span className="footer__career-title-block">Software</span>
             Engineer
@@ -65,9 +61,7 @@ function Footer() {
         </div>
 
         <div className="footer__card">
-          <p className="footer__name">
-            <span className="footer__name-block">David </span> Bedoya
-          </p>
+          <p className="footer__name">David Bedoya</p>
           <p className="footer__career-title">
             <span className="footer__career-title-block">Software</span>
             Engineer
@@ -95,9 +89,7 @@ function Footer() {
         </div>
 
         <div className="footer__card">
-          <p className="footer__name">
-            <span className="footer__name-block">Albana </span> Skeja
-          </p>
+          <p className="footer__name">Albana Skeja</p>
           <p className="footer__career-title">
             <span className="footer__career-title-block">Data</span>
             Scientist

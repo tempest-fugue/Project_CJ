@@ -27,6 +27,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+
       <h1 className="header__title">
         Team Holiday Navigators: Winter East Coast Road Trip 2024
       </h1>

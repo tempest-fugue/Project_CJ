@@ -2,7 +2,7 @@ const express = require("express");
 const { spawn } = require("child_process");
 
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 app.listen(PORT, (error) => {
   if (!error)
@@ -15,7 +15,7 @@ app.listen(PORT, (error) => {
 app.get("/data", (req, res) => {
   let dataToSend;
 
-  const pythonProcess = spawn("python3.12", ["python/script.py"]);
+  const pythonProcess = spawn("python3.10", ["python/script.py"]);
   // collect data from script
   pythonProcess.stdout.on("data", function (data) {
     dataToSend = data.toString();

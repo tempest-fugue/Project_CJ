@@ -9,7 +9,7 @@ export const eventCardDatas = [
     lat: 42.3188,
     long: -71.0852,
     city: "Boston, MA",
-    stop: "Stop #1 ",
+    stop: "Stop #4 ",
     // we can also add some data regarding price and age range
   },
   {
@@ -20,7 +20,7 @@ export const eventCardDatas = [
     lat: 35.2083,
     long: -80.8303,
     city: "Charlotte, NC",
-    stop: "Stop #3 ",
+    stop: "Stop #2 ",
   },
   {
     name: "Top of the Rock VIP Pass",
@@ -30,7 +30,7 @@ export const eventCardDatas = [
     lat: 40.6943,
     long: -73.9249,
     city: "New York City, NY",
-    stop: "Stop #2 ",
+    stop: "Stop #3 ",
   },
   {
     name: "America's largest Aquarium",
@@ -40,7 +40,7 @@ export const eventCardDatas = [
     lat: 33.7628,
     long: -84.422,
     city: "Atlanta, GA",
-    stop: "Stop #4 ",
+    stop: "Stop #1 ",
   },
 ];
 

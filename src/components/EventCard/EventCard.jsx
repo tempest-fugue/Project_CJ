@@ -4,7 +4,7 @@ function EventCard({ item }) {
   return (
     <li
       onClick={() => {
-        window.location.href = item.siteLink;
+        window.open(item.siteLink, "_blank", "noopener,noreferrer");
       }}
       className="event-card"
     >

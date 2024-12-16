@@ -4,7 +4,6 @@ import {
   APIProvider,
   Map,
   AdvancedMarker,
-  Pin,
   InfoWindow,
 } from "@vis.gl/react-google-maps";
 import { getPath } from "../../utils/pathGenerator";
@@ -23,7 +22,7 @@ function GoogleMap() {
           <Map
             mapId={"89d3de76b192536f"}
             defaultCenter={{ lat: 38.5, lng: -77 }}
-            defaultZoom={6}
+            defaultZoom={5}
             gestureHandling={"greedy"}
             disableDefaultUI={false}
             fullscreenControl={false}

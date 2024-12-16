@@ -125,44 +125,44 @@ npm run dev
 
 ## 🌐 Contact Us
 
-Albana Skeja - Data Science
+## Albana Skeja - Data Science
 
-Email: dejsi2003@homtail.com
+### Email: dejsi2003@homtail.com
 
-Linkedin: https://www.linkedin.com/in/albana-skeja-24as/
+### Linkedin: https://www.linkedin.com/in/albana-skeja-24as/
 
-GitHub: https://github.com/Alba-Sk
+### GitHub: https://github.com/Alba-Sk
 
-Eric MacDougall - Data Science
+## Eric MacDougall - Data Science
 
-Email: ericmacdougall60@gmail.com.
+## Email: ericmacdougall60@gmail.com.
 
-Linkedin:
+### Linkedin:
 
-GitHub:
+### GitHub:
 
-David Bedoya - Software Engineer
+## David Bedoya - Software Engineer
 
-Email: davidbedoya1000@gmail.com
+### Email: davidbedoya1000@gmail.com
 
-Linkedin: https://www.linkedin.com/in/dmbedoya/
+### Linkedin: https://www.linkedin.com/in/dmbedoya/
 
-GitHub: https://github.com/Daveyrax
+### GitHub: https://github.com/Daveyrax
 
-Sam Branham - Software Engineer
+## Sam Branham - Software Engineer
 
-Email: hotdogsb@gmail.com
+### Email: hotdogsb@gmail.com
 
-Linkedin:
+### Linkedin:
 
-GitHub: https://github.com/00H00W
+### GitHub: https://github.com/00H00W
 
-Samantha Ensey - Software Engineer
+## Samantha Ensey - Software Engineer
 
-Email: sammiejonorman@gmail.com
+### Email: sammiejonorman@gmail.com
 
-Linkedin: https://www.linkedin.com/in/samantha-ensey-1a7a95a4/
+### Linkedin: https://www.linkedin.com/in/samantha-ensey-1a7a95a4/
 
-GitHub: https://github.com/sensey0702
+### GitHub: https://github.com/sensey0702
 
 ## Let the Holiday Navigators guide you on this festive adventure, ensuring the best travel experience for all! 🎉

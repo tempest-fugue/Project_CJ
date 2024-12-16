@@ -1,4 +1,6 @@
 import "./Footer.css";
+import gitHubIcon from "../../assets/github.svg";
+import linkedInIcon from "../../assets/linkedin.svg";
 
 function Footer() {
   return (
@@ -16,7 +18,7 @@ function Footer() {
             className="footer__social-link"
           >
             <img
-              src="src/assets/github.svg"
+              src={gitHubIcon}
               alt="Github Logo"
               className="footer__github-icon"
             />
@@ -27,7 +29,7 @@ function Footer() {
             className="footer__social-link"
           >
             <img
-              src="src/assets/linkedin.svg"
+              src={linkedInIcon}
               alt="Linkedin Logo"
               className="footer__linkedin-icon"
             />
@@ -44,7 +46,7 @@ function Footer() {
 
           <a href="https://github.com/00H00W" className="footer__social-link">
             <img
-              src="src/assets/github.svg"
+              src={gitHubIcon}
               alt="Github Logo"
               className="footer__github-icon"
             />
@@ -52,7 +54,7 @@ function Footer() {
           </a>
           <a href="https://github.com/00H00W" className="footer__social-link">
             <img
-              src="src/assets/linkedin.svg"
+              src={linkedInIcon}
               alt="Linkedin Logo"
               className="footer__linkedin-icon"
             />
@@ -69,7 +71,7 @@ function Footer() {
 
           <a href="https://github.com/Daveyrax" className="footer__social-link">
             <img
-              src="src/assets/github.svg"
+              src={gitHubIcon}
               alt="Github Logo"
               className="footer__github-icon"
             />
@@ -80,7 +82,7 @@ function Footer() {
             className="footer__social-link"
           >
             <img
-              src="src/assets/linkedin.svg"
+              src={linkedInIcon}
               alt="Linkedin Logo"
               className="footer__linkedin-icon"
             />
@@ -97,7 +99,7 @@ function Footer() {
 
           <a href="https://github.com/Alba-Sk" className="footer__social-link">
             <img
-              src="src/assets/github.svg"
+              src={gitHubIcon}
               alt="Github Logo"
               className="footer__github-icon"
             />
@@ -108,7 +110,7 @@ function Footer() {
             className="footer__social-link"
           >
             <img
-              src="src/assets/linkedin.svg"
+              src={linkedInIcon}
               alt="Linkedin Logo"
               className="footer__linkedin-icon"
             />
@@ -127,7 +129,7 @@ function Footer() {
 
           <a href="" className="footer__social-link">
             <img
-              src="src/assets/github.svg"
+              src={gitHubIcon}
               alt="Github Logo"
               className="footer__github-icon"
             />
@@ -135,7 +137,7 @@ function Footer() {
           </a>
           <a href="" className="footer__social-link">
             <img
-              src="src/assets/linkedin.svg"
+              src={linkedInIcon}
               alt="Linkedin Logo"
               className="footer__linkedin-icon"
             />

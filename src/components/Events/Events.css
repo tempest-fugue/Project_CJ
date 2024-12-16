@@ -1,0 +1,22 @@
+.events {
+  padding: 36px 0;
+  background-color: #0a1f26;
+  font-family: "DMSans", Arial, Helvetica, sans-serif;
+}
+
+.events__title {
+  text-align: center;
+  margin: 0 0 36px;
+  color: white;
+  font-size: 48px;
+}
+
+.events__list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 900px;
+}

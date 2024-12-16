@@ -1,37 +1,57 @@
 import "./GoogleMap.css";
+import { useState } from "react";
 import {
   APIProvider,
   Map,
   AdvancedMarker,
-  Pin,
   InfoWindow,
 } from "@vis.gl/react-google-maps";
+import { getPath } from "../../utils/pathGenerator";
 
 function GoogleMap() {
+  const [openMarkerIndex, setOpenMarkerIndex] = useState(null);
+
+  const handleMarkerClick = (index) => {
+    setOpenMarkerIndex(index);
+  };
+
   return (
     <APIProvider apiKey={"AIzaSyBKsxB7SuZvOCJUCfWSsW9jkBRKtYBa0MY"}>
       <div className="google-map__wrapper">
         <div className="google-map__map">
           <Map
             mapId={"89d3de76b192536f"}
-            defaultCenter={{ lat: 39.5, lng: -77 }}
-            defaultZoom={4}
+            defaultCenter={{ lat: 38.5, lng: -77 }}
+            defaultZoom={5}
             gestureHandling={"greedy"}
             disableDefaultUI={false}
             fullscreenControl={false}
           >
-            <AdvancedMarker
-              position={{ lat: 33.75, lng: -84.39 }}
-            ></AdvancedMarker>
-            <AdvancedMarker
-              position={{ lat: 35.23, lng: -80.84 }}
-            ></AdvancedMarker>
-            <AdvancedMarker
-              position={{ lat: 40.71, lng: -74 }}
-            ></AdvancedMarker>
-            <AdvancedMarker
-              position={{ lat: 42.36, lng: -71.06 }}
-            ></AdvancedMarker>
+            {getPath().map((item, index) => (
+              <div key={index}>
+                {/* AdvancedMarker */}
+                <AdvancedMarker
+                  position={{ lat: item.lat, lng: item.long }}
+                  onClick={() => handleMarkerClick(index)}
+                ></AdvancedMarker>
+
+                {/* Conditionally render InfoWindow */}
+                {openMarkerIndex === index && (
+                  <InfoWindow
+                    position={{ lat: item.lat, lng: item.long }}
+                    onCloseClick={() => setOpenMarkerIndex(null)}
+                  >
+                    <div>
+                      <h3>
+                        {item.stop}
+                        {item.city}
+                      </h3>
+                      <p>{item.name}</p>
+                    </div>
+                  </InfoWindow>
+                )}
+              </div>
+            ))}
           </Map>
         </div>
       </div>

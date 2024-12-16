@@ -1,0 +1,5 @@
+city,state_id,state_name,county_name,lat,lng,population,density,timezone,id,event,url,price,address
+New York,NY,New York,Queens,40.6943,-73.9249,18908608,11080.3,America/New_York,1840034016,Top of the Rock & Rockefeller Center VIP Pass: Holiday Edition,https://www.new-york-tickets.com/rockefeller-center/,300,"45 Rockefeller Plaza, New York, NY 10111"
+Charlotte,NC,North Carolina,Mecklenburg,35.2083,-80.8303,1427444,1089.8,America/New_York,1840014557,2024 North Carolina Christmas Festival,https://www.eventbrite.com/e/2024-north-carolina-christmas-festival-tickets-1021016476767?aff=ebdssbdestsearch,0,"4751 North Carolina 49 Gold Hall Concord, NC 28025"
+Boston,MA,Massachusetts,Suffolk,42.3188,-71.0852,4328315,5319.0,America/New_York,1840000455,Disney On Ice: Mickey's Search Party,https://www.boston-discovery-guide.com/boston-event-calendar-december.html,66,"925 Commonwealth Ave, Boston, MA 02215"
+Atlanta,GA,Georgia,Fulton,33.7628,-84.422,5180179,1412.3,America/New_York,1840013660,America's larg Aquarium,https://www.georgiaaquarium.org/?utm_source=acvb&utm_medium=Banner&utm_campaign=MFtS,65,"225 Baker St NW, Atlanta, GA 30313"

@@ -1,0 +1,30 @@
+.event-card {
+  list-style: none;
+  flex-basis: 40%;
+  margin: 0;
+  background-color: white;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "DMSans", Arial, Helvetica, sans-serif;
+}
+
+.event-card__image {
+  height: 300px;
+  object-fit: cover;
+}
+
+.event-card__title {
+  margin: 8px 24px 0;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.event-card__text {
+  margin: 16px 24px 24px;
+  font-size: 18px;
+  line-height: 1;
+}

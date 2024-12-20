@@ -1,6 +1,6 @@
 # Code Jam December 2024 - Team Holiday Navigators
 
-## 🏔️ Winter East Coast Road Trip: A Festive Journey Through Iconic East Coast Events 🎄
+## 🏔️ Winter East Coast Road Trip:     A Festive Journey Through Iconic East Coast Events 🎄
 
 Embark on a magical winter journey across the Eastern United States, visiting four spectacular cities,
 each offering a unique and unforgettable event.

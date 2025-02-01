@@ -139,9 +139,9 @@ npm run dev
 
 **Email:** ericmacdougall60@gmail.com
 
-**Linkedin:**
+**Linkedin:** https://www.linkedin.com/in/eric-macdougall/
 
-**GitHub:**
+**GitHub:** https://github.com/tempest-fugue
 
 ### David Bedoya - Software Engineer
 
